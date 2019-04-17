@@ -2,7 +2,7 @@
 #include <stdlib.h>  /* For exit() function */
 int main()
 {
-   char sentence[1000];
+   char sentence[500];
    FILE *fptr;
 
    fptr = fopen("program.txt", "w");
