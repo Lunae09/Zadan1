@@ -2,22 +2,22 @@
 
 int main()
 {
-   char str[1000], ch;
+   char str[100], napis;
    int i, frequency = 0;
 
    printf("Enter a string: ");
    gets(str);
 
    printf("Enter a character to find the frequency: ");
-   scanf("%c",&ch);
+   scanf("%c",&napis);
 
    for(i = 0; str[i] != '\0'; ++i)
    {
-       if(ch == str[i])
+       if(napis == str[i])
            ++frequency;
    }
 
-   printf("Frequency of %c = %d", ch, frequency);
+   printf("Frequency of %c = %d", napis, frequency);
 
    return 0;
 }
