@@ -2,7 +2,7 @@
 
 int main()
 {
-    char line[150];
+    char line[1000];
     int i, j;
     printf("Enter a string: ");
     gets(line);
