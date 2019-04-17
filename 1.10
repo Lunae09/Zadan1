@@ -2,6 +2,8 @@
 #include <iostream>
 #include <math.h>
 
+//zmiana
+
 int n;
 double x;
 const int M=200;
